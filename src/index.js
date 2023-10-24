@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NotificationList from './Ch-06/NotificationList';
-import Counter from "./Ch_07/Counter"
-import TextInputWithFocusButton from "./Ch_07/TextInputWithFocusButton"
-import MeasureExample from './Ch_07/MeasureExample';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
+import Toolbar from './Ch_09/Toolbar';
+import LandingPage from './Ch_09/LandingPage'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    {/* <NotificationList /> */}
-    {/* <Counter/> */}
-    {/* <TextInputWithFocusButton/> */}
-    <MeasureExample/>
+    {/* <Toolbar /> */}
+    <LandingPage/>
   </React.StrictMode>,
-
+  document.getElementById('root')
 );

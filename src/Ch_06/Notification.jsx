@@ -57,17 +57,21 @@ class Notification extends React.Component {
         return (
           <div style={styles.wrapper}>
           <div style={styles.imageContainer}>
-              {/* <img
-                  src={props.imgUrl}
+              <img
+                  src={this.props.imgUrl}
                   style={styles.image}
               />
           </div>
 
           <div style={styles.contentContainer}>
-              <span style={styles.nameText}>{props.id}</span>
-              <span style={styles.commentText}>{props.message}</span> */}
+              <span style={styles.nameText}>{this.props.name}</span>
+              <span style={styles.commentText}>{this.props.message}</span>
           </div>
       </div>
+            // <div style={styles.wrapper}>
+            //     <span style={styles.messageText}>{this.props.message}</span>
+            // </div>
+        
         );
     }
 }
