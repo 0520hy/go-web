@@ -1,8 +1,9 @@
 import React,{useState} from "react";
+import WordList from "./WordList";
 
 
 
-function MainPage(props) {
+function Button(props) {
   const [showWarning, setShowWarning] = useState(false);
 
   const handleToggleClick = () => {
@@ -12,7 +13,7 @@ function MainPage(props) {
     <div>
       <WarningBanner warning = {showWarning}/>
       <button onClick={handleToggleClick}>
-        {showWarning ? '감추기':'보이기'}
+        {showWarning ? '닫기':'열기'}
       </button>
     </div>
   )
@@ -23,8 +24,8 @@ function WarningBanner(props){
     return null;
   }
   return(
-    <div>경고</div>
+    <div><WordList/></div>
   )
 }
 
-export default MainPage;
+export default Button;

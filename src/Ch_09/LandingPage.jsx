@@ -19,7 +19,7 @@ function LandingPage(props) {
                 onClickLogin={onClickLogin}
                 onClickLogout={onClickLogout}
             />
-            <div style={{ padding: 16 }}>리액트와 함께하는</div>
+            <div style={{ padding: 16 }}>리액트와 함께하는 영단어 공부!</div>
         </div>
     );
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Toolbar from './Ch_09/Toolbar';
 import LandingPage from './Ch_09/LandingPage'
+import Button from './Ch_09/Button'
+import EventPractice from './Ch_08/EventPractice';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Toolbar /> */}
     <LandingPage/>
+    <Button/>
+    <EventPractice/>
   </React.StrictMode>,
   document.getElementById('root')
 );

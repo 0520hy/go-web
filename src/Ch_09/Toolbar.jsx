@@ -5,7 +5,7 @@ const styles = {
       padding: 16,
       display: "flex",
       flexDirection: "row",
-      justifyContent: "space-between", // 우측 정렬
+      justifyContent: "space-between", 
       alignItems: "center",
       borderBottom: "1px solid grey",
       backgroundColor: "#E6E6E6"
